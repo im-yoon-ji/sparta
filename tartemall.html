@@ -78,7 +78,9 @@
 						for (let i=0 ; i <orders.length;i++) {
 							make_card(orders[i]['item'],orders[i]['name'],orders[i]['count'],orders[i]['address'],orders[i]['phone'])
 						}
-					} 
+					} else {
+						alert('자료를 받아오지 못했습니다.')
+					}
 				})
 				}
 
